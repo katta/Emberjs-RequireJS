@@ -7,5 +7,9 @@ define(["ember"], function(Ember){
 	  })
 	});
 
+	Router.map(function(){
+		this.resource("tags")
+	});
+
 	return Router;
 });
