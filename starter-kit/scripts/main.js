@@ -2,10 +2,12 @@
 	require(["config"], function(config){
 		requirejs.config(config);		
 
-		require(["bootstrap-tagsinput",
+		require([
+			"typeahead",
+			"bootstrap-tagsinput",
 			"App",
-			"controllers/ApplicationController",
-			"controllers/TagsController"
+			"controllers/applicationController",
+			"controllers/tagsController"
 			]);
 
 	});

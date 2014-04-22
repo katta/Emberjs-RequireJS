@@ -8,7 +8,10 @@ define({
 			deps: ['jquery']
 		},
 		'bootstrap-tagsinput' : {
-			deps: ['bootstrap', 'jquery']
+			deps: ['bootstrap', 'jquery', 'typeahead']
+		},
+		'typeahead' : {
+			deps: ['jquery']
 		}
 	},
 	paths : {
@@ -23,6 +26,7 @@ define({
 		'ember': 'libs/ember/1.0.0-rc.3/ember',
 		'bootstrap':'libs/bootstrap/bootstrap',
 		'bootstrap-tagsinput':'libs/bootstrap/bootstrap-tagsinput',
+		'typeahead' :'libs/twitter/typeahead',
 		/*requirejs-plugins*/
 		'text': 'libs/requirejs-plugins/text',
 		'hbs': 'libs/requirejs-plugins/hbs',

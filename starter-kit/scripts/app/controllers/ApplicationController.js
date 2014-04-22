@@ -1,7 +1,7 @@
-define(["ember","App","views/ApplicationView"], function(Ember, App, ApplicationView){
-	var ApplicationController = Ember.Controller.extend();
+define(["ember","App","views/applicationView"], function(Ember, App, applicationView){
+	var applicationController = Ember.Controller.extend();
 
-	App.ApplicationView = ApplicationView;
+	App.ApplicationView = applicationView;
 	
     App.ApplicationRoute = Ember.Route.extend({
         renderTemplate: function() {
@@ -9,5 +9,5 @@ define(["ember","App","views/ApplicationView"], function(Ember, App, Application
         }
     });
 
-	return ApplicationController;
+	return applicationController;
 });
